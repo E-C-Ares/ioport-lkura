@@ -26,17 +26,11 @@
 
 WebGlobe是基于HTML5原生WebGL实现的轻量级Google Earth三维地图引擎。
 
-桌面版在线访问地址: https://ispring.github.io/WebGlobe/index.html
 
-移动版二维码访问(小米系统中的微信、小米默认浏览器在某些情况下存在已知bug): 
-<div align="center">
-  <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/qrcode.png">
-</div>
 
-**如果觉得不错，欢迎Star和Fork！**
 
 ## Features
- 1. 没有使用第三方框架，无需插件，所有支持WebGL的浏览器均可使用。
+ 1. no第三方框架，无需插件，所有支持WebGL的浏览器均可使用。
 
  2. 支持Google、高德、微软Bing、腾讯、360、OpenStreetMap等底图服务。
 
@@ -61,70 +55,4 @@ WebGlobe是基于HTML5原生WebGL实现的轻量级Google Earth三维地图引�
     - npm run build:prod 对代码进行编译打包，代码进行了压缩混淆，用于生产环境
     - npm start 用于执行build:dev
 
- 5. 接入持续集成服务[Travis CI](https://travis-ci.org/iSpring/WebGlobe)，保证代码质量。
-
- 6. 有问题的话欢迎大家提issue或者到[Gitter](https://gitter.im/iSpring/WebGlobe)中进行讨论。
-
- ## Screenshots
-**1. WebGlobe移动端主界面**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/1.png">
-    </a>
-  </div>
-
-
-**2. 附近搜索**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/2.png">
-    </a>
-  </div>
-
-
-**3. 搜索结果列表展示**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/3.png">
-    </a>
-  </div>
-
-
-**4. 搜索结果地图展示**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/4.png">
-    </a>
-  </div>
-
-
-**5. 路线规划**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/5.png">
-    </a>
-  </div>
-
-
-**6. 驾车出行路线**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/6.png">
-    </a>
-  </div>
-
-
-**7. 公交出行路线**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/7.png">
-    </a>
-  </div>
-
-
-**8. 步行出行路线**
-  <div align="left">
-    <a target="_blank" href="#">
-      <img src="https://cdn.rawgit.com/iSpring/WebGlobe/develop/images/8.png">
-    </a>
-  </div>
+ 5. 接入持续集成服务[Travis CI](https://travis-ci.org/iSpring/WebGlobe)，保证质量。
